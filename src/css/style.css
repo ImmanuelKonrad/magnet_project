@@ -1,0 +1,147 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row{
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  content: "";
+  padding: 0;
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: black;
+  border: 1px dotted #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  /*line-height: 34px;*/
+  margin-right: -1px;
+  margin-top: -1px;
+  text-align: center;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.sims {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  text-align:center;
+}
+
+.containerBottoni{
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+.vettore{
+  width: 50%;
+  height: 50%;
+  border: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#root{
+  background-color: black;
+  text-align: center;
+}
+
+
+.slidecontainer {
+  width: 100%; 
+  color: whitesmoke;
+  align-content: center;
+}
+
+.slider {
+  -webkit-appearance: none;  
+  appearance: none;
+  width: 80%; 
+  height: 25px; 
+  border-radius: 5px;
+  background: #d3d3d3; 
+  outline: none; 
+  opacity: 0.7; 
+  -webkit-transition: .2s; 
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1; 
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 25px; 
+  height: 25px; 
+  border-radius:50%;
+  background: gray; 
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; 
+  height: 25px; 
+  background:  gray; 
+  cursor: pointer; 
+  border-radius:50%;
+}
+
+#contenitore{
+  align-self: center;
+}
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 92px;
+  padding: 30px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+.deepshadow {
+  color: #e0dfdc;
+  background-color: black;
+  letter-spacing: .1em;
+  text-shadow: 
+    0 -1px 0 #fff, 
+    0 1px 0 #2e2e2e, 
+    0 2px 0 #2c2c2c, 
+    0 3px 0 #2a2a2a, 
+    0 4px 0 #282828, 
+    0 5px 0 #262626, 
+    0 6px 0 #242424, 
+    0 7px 0 #222, 
+    0 8px 0 #202020, 
+    0 9px 0 #1e1e1e, 
+    0 10px 0 #1c1c1c, 
+    0 11px 0 #1a1a1a, 
+    0 12px 0 #181818, 
+    0 13px 0 #161616, 
+    0 14px 0 #141414, 
+    0 15px 0 #121212, 
+    0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
