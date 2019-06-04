@@ -124,7 +124,7 @@ class Game extends React.Component {
       }
     }
     return await new Promise((res, rej) => {
-      setTimeout(res, 125)
+      setTimeout(res, 25)
     });
   }
 
